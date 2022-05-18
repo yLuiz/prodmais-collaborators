@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: rgb(237, 243, 255);
+}
+
+main {
+  margin-top: 2em;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(0, 89, 255);
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  letter-spacing: 5px;
+
+}
+
+.container {
+  width: 100%;
+}
+
+.container-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 10px;
+
+  list-style: none;
+}
+
+.card {
+  max-width: 250px;
+  width: 100%;
+
+  min-height: 340px;
+
+  margin: 20px 0;
+  background-color: #FFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 60%;
+}
+
+.card-photo img {
+  width: 7rem;
+  height: 8.5rem;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.description {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(0, 89, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 15px;
+  color: #FFF;
+}
+
+.about h2 {
+  font-size: medium;
+}
+
+.socials-list {
+  display: flex;
+  list-style: none;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(29, 29, 29);
+  margin: 20px;
+
+  transition: all .3s ease-in-out;
+}
+
+.social-item:hover {
+  background-color: rgb(41, 41, 41);
+  transform: scale(1.1);
+}
+
+.social-item img {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 512px) {
+  .container-cards {
+    display: flex;
+  }
+
+  .card {
+    max-width: 500px;
+  }
+}
