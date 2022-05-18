@@ -18,14 +18,6 @@ const collaborators = [
   },
 
   {
-    name: "João Victor",
-    occupation: "Tester",
-    githubName: "yLu",
-    linkedinName: "yluiz",
-    instagramName: "luiz_.v",
-  },
-
-  {
     name: "Lucas Sessi",
     occupation: "Designer",
     githubName: "Lucas-Sessi",
