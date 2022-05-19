@@ -28,7 +28,7 @@ const collaborators = [
 
   {
     name: "Caio Barroncas",
-    occupation: "FullStack",
+    occupation: "AppSec",
     githubName: "barroncasadc",
     linkedinName: "caio-barroncas-594b7815b",
     instagramName: "cbarroncas",
