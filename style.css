@@ -35,6 +35,7 @@ main {
 
 .section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -48,6 +49,10 @@ main {
   font-size: .8rem;
   letter-spacing: 5px;
 
+}
+
+.section h2 {
+  font-weight: 500;
 }
 
 .container {
@@ -195,6 +200,21 @@ main {
 .social-item:hover {
   background-color: rgb(41, 41, 41);
   transform: scale(1.1);
+  animation: rotate-icon .5s;
+}
+
+@keyframes rotate-icon {
+  0% {
+    transform: translateX(0px)
+  }
+
+  50% {
+    transform: translateY(-3px)
+  }
+
+  100% {
+    transform: translateX(0px) scale(1.1);
+  }
 }
 
 .social-item img {

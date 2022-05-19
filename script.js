@@ -6,6 +6,7 @@ const collaborators = [
     name: "James Saboia",
     occupation: "Desenvolvedor Android",
     githubName: "jamessaboia",
+    avatarAlternative: "",
     linkedinName: "james-saboia",
     instagramName: "james.saboia",
   },
@@ -14,6 +15,7 @@ const collaborators = [
     name: "Affonso Ruiz",
     occupation: "FullStack",
     githubName: "RuizHenrique01",
+    avatarAlternative: "",
     linkedinName: "affonsoruiz",
     instagramName: "ruiz_affonso",
   },
@@ -22,6 +24,7 @@ const collaborators = [
     name: "Luiz Victor",
     occupation: "FullStack",
     githubName: "yLuiz",
+    avatarAlternative: "",
     linkedinName: "yluiz",
     instagramName: "luiz_.v",
   },
@@ -30,6 +33,7 @@ const collaborators = [
     name: "Caio Barroncas",
     occupation: "AppSec",
     githubName: "barroncasadc",
+    avatarAlternative: "",
     linkedinName: "caio-barroncas-594b7815b",
     instagramName: "cbarroncas",
   },
@@ -38,6 +42,7 @@ const collaborators = [
     name: "Lucas Sessi",
     occupation: "Designer",
     githubName: "Lucas-Sessi",
+    avatarAlternative: "",
     linkedinName: "yluizlucas-sessi",
     instagramName: "lucas_sessi",
   },
@@ -46,6 +51,7 @@ const collaborators = [
     name: "João Wezen",
     occupation: "Tester",
     githubName: "victorWezen",
+    avatarAlternative: "",
     linkedinName: "joão-wezen-608a85225",
     instagramName: "victor_wezen",
   },
@@ -54,6 +60,7 @@ const collaborators = [
     name: "Nicolas Baracho",
     occupation: "Tester",
     githubName: "NBaracho",
+    avatarAlternative: "",
     linkedinName: "nicolas-baracho-185259107",
     instagramName: "imnickb",
   },
@@ -62,8 +69,36 @@ const collaborators = [
     name: "Yann Matheus",
     occupation: "Social Media",
     githubName: "Yannmask",
+    avatarAlternative: "",
     linkedinName: "yann-matheus-77aaa51bb",
     instagramName: "yannmask",
+  },
+
+  {
+    name: "Cristian Cordovil",
+    occupation: "occupation",
+    githubName: "",
+    avatarAlternative: "./assets/img/cristian.jpg",
+    linkedinName: "cristian-cordovil-ba9b79236",
+    instagramName: "cristian_cordovil",
+  },
+
+  {
+    name: "Arley Valente",
+    occupation: "occupation",
+    githubName: "",
+    avatarAlternative: "./assets/img/arley.jpg",
+    linkedinName: "",
+    instagramName: "_harley_valente_",
+  },
+
+  {
+    name: "Lucas Garcia",
+    occupation: "occupation",
+    githubName: "",
+    avatarAlternative: "./assets/img/lucasharrisson.jpg",
+    linkedinName: "lucas-garcia-195b9015b",
+    instagramName: "lucs.grana",
   },
 ]
   
@@ -75,9 +110,12 @@ collaborators.map((coll) => {
   .then(res => res.json())
   .then(data => {
     const avatar = data.avatar_url
-    const cardPhoto = document.getElementById(`photo-${coll.githubName}`)
+    const cardPhoto = document.getElementById(`photo-${coll.instagramName}`)
     cardPhoto.src = avatar
+
+    if (!avatar) cardPhoto.src = coll.avatarAlternative
   })
+  
 
   cardList.innerHTML += `
     <li class="card">
@@ -85,7 +123,7 @@ collaborators.map((coll) => {
       <div class="card-photo">
         <div class="photo-container">
           <div class="photo-border"></div>
-          <img id="photo-${coll.githubName}" src="" alt="" />
+          <img id="photo-${coll.instagramName}" src="" alt="" />
         </div>
       </div>
       <div class="description">
@@ -126,6 +164,5 @@ collaborators.map((coll) => {
         </div>
       </div>
     </li>
-  
   `
 })
