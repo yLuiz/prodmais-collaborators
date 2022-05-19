@@ -85,7 +85,7 @@ collaborators.map((coll) => {
       <div class="card-photo">
         <div class="photo-container">
           <div class="photo-border"></div>
-          <img id="photo-${coll.githubName}" src="" alt="Foto" />
+          <img id="photo-${coll.githubName}" src="" alt="" />
         </div>
       </div>
       <div class="description">
