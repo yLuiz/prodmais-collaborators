@@ -118,12 +118,14 @@ main {
 
 .photo-border {
   position: absolute;
-  background-image: linear-gradient(#5490ff 40%, #8a54ff 60%);
+  background-image: linear-gradient(#5490ff 40%, #1c005a 60%);
   box-shadow: 0 0 80px #8a54ff;
 
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   animation: rotate 3s linear infinite;
+
+  border-radius: 50%;
   z-index: 0;
 }
 
