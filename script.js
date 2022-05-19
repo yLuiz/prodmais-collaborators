@@ -1,12 +1,13 @@
 const cardList = document.getElementById('container-cards')
 
 const collaborators = [
+
   {
-    name: "Luiz Victor",
-    occupation: "FullStack",
-    githubName: "yLuiz",
-    linkedinName: "yluiz",
-    instagramName: "luiz_.v",
+    name: "James Saboia",
+    occupation: "Desenvolvedor Android",
+    githubName: "jamessaboia",
+    linkedinName: "james-saboia",
+    instagramName: "james.saboia",
   },
 
   {
@@ -18,19 +19,27 @@ const collaborators = [
   },
 
   {
+    name: "Luiz Victor",
+    occupation: "FullStack",
+    githubName: "yLuiz",
+    linkedinName: "yluiz",
+    instagramName: "luiz_.v",
+  },
+
+  {
+    name: "Caio Barroncas",
+    occupation: "FullStack",
+    githubName: "barroncasadc",
+    linkedinName: "caio-barroncas-594b7815b",
+    instagramName: "cbarroncas",
+  },
+
+  {
     name: "Lucas Sessi",
     occupation: "Designer",
     githubName: "Lucas-Sessi",
     linkedinName: "yluizlucas-sessi",
     instagramName: "lucas_sessi",
-  },
-
-  {
-    name: "James Saboia",
-    occupation: "Desenvolvedor Android",
-    githubName: "jamessaboia",
-    linkedinName: "james-saboia",
-    instagramName: "james.saboia",
   },
 
   {
@@ -47,14 +56,6 @@ const collaborators = [
     githubName: "NBaracho",
     linkedinName: "nicolas-baracho-185259107",
     instagramName: "imnickb",
-  },
-
-  {
-    name: "Caio Barroncas",
-    occupation: "FullStack",
-    githubName: "barroncasadc",
-    linkedinName: "caio-barroncas-594b7815b",
-    instagramName: "cbarroncas",
   },
 
   {
