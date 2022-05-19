@@ -3,7 +3,7 @@ const cardList = document.getElementById('container-cards')
 const collaborators = [
   {
     name: "Luiz Victor",
-    occupation: "Back-end",
+    occupation: "FullStack",
     githubName: "yLuiz",
     linkedinName: "yluiz",
     instagramName: "luiz_.v",
@@ -11,7 +11,7 @@ const collaborators = [
 
   {
     name: "Affonso Ruiz",
-    occupation: "Back-end",
+    occupation: "FullStack",
     githubName: "RuizHenrique01",
     linkedinName: "affonsoruiz",
     instagramName: "ruiz_affonso",
@@ -27,10 +27,42 @@ const collaborators = [
 
   {
     name: "James Saboia",
-    occupation: "Front-end",
+    occupation: "Desenvolvedor Android",
     githubName: "jamessaboia",
     linkedinName: "james-saboia",
     instagramName: "james.saboia",
+  },
+
+  {
+    name: "João Wezen",
+    occupation: "Tester",
+    githubName: "victorWezen",
+    linkedinName: "joão-wezen-608a85225",
+    instagramName: "victor_wezen",
+  },
+
+  {
+    name: "Nicolas Baracho",
+    occupation: "Tester",
+    githubName: "NBaracho",
+    linkedinName: "nicolas-baracho-185259107",
+    instagramName: "imnickb",
+  },
+
+  {
+    name: "Caio Barroncas",
+    occupation: "FullStack",
+    githubName: "barroncasadc",
+    linkedinName: "caio-barroncas-594b7815b",
+    instagramName: "cbarroncas",
+  },
+
+  {
+    name: "Yann Matheus",
+    occupation: "Social Media",
+    githubName: "Yannmask",
+    linkedinName: "yann-matheus-77aaa51bb",
+    instagramName: "yannmask",
   },
 ]
   
