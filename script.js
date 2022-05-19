@@ -48,8 +48,12 @@ collaborators.map((coll) => {
 
   cardList.innerHTML += `
     <li class="card">
+      <div class="card-border-top"></div>
       <div class="card-photo">
-        <img id="photo-${coll.githubName}" src="" alt="Foto" />
+        <div class="photo-container">
+          <div class="photo-border"></div>
+          <img id="photo-${coll.githubName}" src="" alt="Foto" />
+        </div>
       </div>
       <div class="description">
         <div class="about">
