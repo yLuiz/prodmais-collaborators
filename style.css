@@ -2,8 +2,8 @@
 
 :root {
   --primary-color: #5490ff;
-  --secondary-color: #a5c4ff;
-  --bg-color: #edf3ff;
+  --secondary-color: #213760;
+  --bg-color: #000f29;
   --black-100: #1f1f1f;
 }
 
@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
 
-  background-color: rgb(0, 15, 41);
+  background-color: var(--bg-color);
 }
 
 main {
@@ -45,7 +45,7 @@ main {
   background-color: var(--primary-color);
 
   font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
+  font-size: .8rem;
   letter-spacing: 5px;
 
 }
@@ -67,15 +67,15 @@ main {
 
 .card {
   position: relative;
-  min-width: 280px;
-  max-width: 280px;
+  min-width: 230px;
+  max-width: 230px;
 
   border-radius: 15px;
   min-height: 340px;
   flex: 2;
   margin: 20px 0;
   background-color: var(--secondary-color);
-  box-shadow: 0 0 5px rgba(136, 195, 255, 1);
+  box-shadow: 0 0 10px rgba(136, 195, 255, 0.3);
   overflow: hidden;
 }
 
@@ -108,8 +108,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 7.4rem;
-  height: 8.9rem;
+  width: 6.5rem;
+  height: 8rem;
   background-color: #000;
   object-fit: cover;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
@@ -137,8 +137,8 @@ main {
 }
 
 .card-photo img {
-  width: 7rem;
-  height: 8.5rem;
+  width: 6rem;
+  height: 7.5rem;
   object-fit: cover;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
@@ -158,12 +158,16 @@ main {
   flex-direction: column;
   align-items: center;
 
+  font-size: .8rem;
+
   margin-top: 15px;
   color: #FFF;
 }
 
 .about h2 {
-  font-size: medium;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9rem;
+  font-weight: 500;
 }
 
 .socials-list {
@@ -197,13 +201,6 @@ main {
 }
 
 @media (max-width: 660px) {
-  .container-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 620px) {
   .container-cards {
     display: flex;
   }
