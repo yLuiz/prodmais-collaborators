@@ -48,6 +48,15 @@ const collaborators = [
   },
 
   {
+    name: "Luís Eduardo",
+    occupation: "Designer",
+    githubName: "./assets/img/luiseduardo.jpg",
+    avatarAlternative: "",
+    linkedinName: "luís-eduardo-martins-071632236",
+    instagramName: "leduaardo_",
+  },
+
+  {
     name: "João Wezen",
     occupation: "QA",
     githubName: "victorWezen",
