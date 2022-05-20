@@ -49,7 +49,7 @@ const collaborators = [
 
   {
     name: "João Wezen",
-    occupation: "Tester",
+    occupation: "QA",
     githubName: "victorWezen",
     avatarAlternative: "",
     linkedinName: "joão-wezen-608a85225",
@@ -58,7 +58,7 @@ const collaborators = [
 
   {
     name: "Nicolas Baracho",
-    occupation: "Tester",
+    occupation: "QA",
     githubName: "NBaracho",
     avatarAlternative: "",
     linkedinName: "nicolas-baracho-185259107",
@@ -88,7 +88,7 @@ const collaborators = [
     occupation: "occupation",
     githubName: "",
     avatarAlternative: "./assets/img/arley.jpg",
-    linkedinName: "",
+    linkedinName: "arley-v-oliveira",
     instagramName: "_harley_valente_",
   },
 
