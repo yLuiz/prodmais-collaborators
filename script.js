@@ -13,7 +13,7 @@ const collaborators = [
 
   {
     name: "Affonso Ruiz",
-    occupation: "FullStack",
+    occupation: "Full Stack",
     githubName: "RuizHenrique01",
     avatarAlternative: "",
     linkedinName: "affonsoruiz",
@@ -22,7 +22,7 @@ const collaborators = [
 
   {
     name: "Luiz Victor",
-    occupation: "FullStack",
+    occupation: "Full Stack",
     githubName: "yLuiz",
     avatarAlternative: "",
     linkedinName: "yluiz",
