@@ -85,7 +85,7 @@ const collaborators = [
 
   {
     name: "Cristian Cordovil",
-    occupation: "occupation",
+    occupation: "Designer",
     githubName: "",
     avatarAlternative: "./assets/img/cristian.jpg",
     linkedinName: "cristian-cordovil-ba9b79236",
@@ -94,7 +94,7 @@ const collaborators = [
 
   {
     name: "Arley Valente",
-    occupation: "occupation",
+    occupation: "Designer",
     githubName: "",
     avatarAlternative: "./assets/img/arley.jpg",
     linkedinName: "arley-v-oliveira",
