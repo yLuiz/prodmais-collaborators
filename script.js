@@ -122,7 +122,9 @@ collaborators.map((coll) => {
       <div class="card-border-top"></div>
       <div class="card-photo">
         <div class="photo-container">
-          <div class="photo-border"></div>
+          <div class="photo-border">
+          </div>
+          <div class="bg-photo-border"></div>
           <img id="photo-${coll.instagramName}" src="" alt="" />
         </div>
       </div>
