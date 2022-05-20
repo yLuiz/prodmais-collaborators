@@ -40,7 +40,7 @@ const collaborators = [
 
   {
     name: "Lucas Sessi",
-    occupation: "Designer",
+    occupation: "UX/UI Design",
     githubName: "Lucas-Sessi",
     avatarAlternative: "",
     linkedinName: "yluizlucas-sessi",
@@ -49,11 +49,29 @@ const collaborators = [
 
   {
     name: "Luís Eduardo",
-    occupation: "Designer",
+    occupation: "UX/UI Design",
     githubName: "",
     avatarAlternative: "./assets/img/luiseduardo.jpg",
     linkedinName: "luís-eduardo-martins-071632236",
     instagramName: "leduaardo_",
+  },
+
+  {
+    name: "Cristian Cordovil",
+    occupation: "UX/UI Design",
+    githubName: "",
+    avatarAlternative: "./assets/img/cristian.jpg",
+    linkedinName: "cristian-cordovil-ba9b79236",
+    instagramName: "cristian_cordovil",
+  },
+
+  {
+    name: "Arley Valente",
+    occupation: "UX/UI Design",
+    githubName: "",
+    avatarAlternative: "./assets/img/arley.jpg",
+    linkedinName: "arley-v-oliveira",
+    instagramName: "_harley_valente_",
   },
 
   {
@@ -81,24 +99,6 @@ const collaborators = [
     avatarAlternative: "",
     linkedinName: "yann-matheus-77aaa51bb",
     instagramName: "yannmask",
-  },
-
-  {
-    name: "Cristian Cordovil",
-    occupation: "Designer",
-    githubName: "",
-    avatarAlternative: "./assets/img/cristian.jpg",
-    linkedinName: "cristian-cordovil-ba9b79236",
-    instagramName: "cristian_cordovil",
-  },
-
-  {
-    name: "Arley Valente",
-    occupation: "Designer",
-    githubName: "",
-    avatarAlternative: "./assets/img/arley.jpg",
-    linkedinName: "arley-v-oliveira",
-    instagramName: "_harley_valente_",
   },
 
   {

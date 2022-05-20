@@ -13,6 +13,17 @@
   box-sizing: border-box;
 }
 
+html::-webkit-scrollbar {
+  background-color: #0059ff;
+  transition: all .3s ease-in-out;
+  width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: rgb(224, 239, 255);
+}
+
 body {
   display: flex;
   flex-direction: column;
