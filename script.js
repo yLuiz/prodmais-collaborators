@@ -50,8 +50,8 @@ const collaborators = [
   {
     name: "Luís Eduardo",
     occupation: "Designer",
-    githubName: "./assets/img/luiseduardo.jpg",
-    avatarAlternative: "",
+    githubName: "",
+    avatarAlternative: "./assets/img/luiseduardo.jpg",
     linkedinName: "luís-eduardo-martins-071632236",
     instagramName: "leduaardo_",
   },
