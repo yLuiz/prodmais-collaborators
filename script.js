@@ -59,7 +59,7 @@ const collaborators = [
   {
     name: "Cristian Cordovil",
     occupation: "UX/UI",
-    githubName: "",
+    githubName: "Crisrianrc",
     avatarAlternative: "./assets/img/cristian.jpg",
     linkedinName: "cristian-cordovil-ba9b79236",
     instagramName: "cristian_cordovil",
