@@ -40,7 +40,7 @@ const collaborators = [
 
   {
     name: "Lucas Sessi",
-    occupation: "UX/UI Design",
+    occupation: "UX/UI",
     githubName: "Lucas-Sessi",
     avatarAlternative: "",
     linkedinName: "yluizlucas-sessi",
@@ -49,7 +49,7 @@ const collaborators = [
 
   {
     name: "Luís Eduardo",
-    occupation: "UX/UI Design",
+    occupation: "UX/UI",
     githubName: "",
     avatarAlternative: "./assets/img/luiseduardo.jpg",
     linkedinName: "luís-eduardo-martins-071632236",
@@ -58,7 +58,7 @@ const collaborators = [
 
   {
     name: "Cristian Cordovil",
-    occupation: "UX/UI Design",
+    occupation: "UX/UI",
     githubName: "",
     avatarAlternative: "./assets/img/cristian.jpg",
     linkedinName: "cristian-cordovil-ba9b79236",
@@ -67,11 +67,20 @@ const collaborators = [
 
   {
     name: "Arley Valente",
-    occupation: "UX/UI Design",
+    occupation: "UX/UI",
     githubName: "",
     avatarAlternative: "./assets/img/arley.jpg",
     linkedinName: "arley-v-oliveira",
     instagramName: "_harley_valente_",
+  },
+
+  {
+    name: "Lucas Garcia",
+    occupation: "UX/UI",
+    githubName: "",
+    avatarAlternative: "./assets/img/lucasharrisson.jpg",
+    linkedinName: "lucas-garcia-195b9015b",
+    instagramName: "lucs.grana",
   },
 
   {
@@ -101,14 +110,6 @@ const collaborators = [
     instagramName: "yannmask",
   },
 
-  {
-    name: "Lucas Garcia",
-    occupation: "occupation",
-    githubName: "",
-    avatarAlternative: "./assets/img/lucasharrisson.jpg",
-    linkedinName: "lucas-garcia-195b9015b",
-    instagramName: "lucs.grana",
-  },
 ]
   
 collaborators.map((coll) => {
