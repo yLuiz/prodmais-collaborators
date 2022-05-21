@@ -50,7 +50,7 @@ const collaborators = [
   {
     name: "Luís Eduardo",
     occupation: "UX/UI",
-    githubName: "",
+    githubName: "eduardobnhr",
     avatarAlternative: "./assets/img/luiseduardo.jpg",
     linkedinName: "luís-eduardo-martins-071632236",
     instagramName: "leduaardo_",
