@@ -19,7 +19,7 @@ const collaborators = [
     linkedinName: "affonsoruiz",
     instagramName: "ruiz_affonso",
   },
-
+  
   {
     name: "Luiz Victor",
     occupation: "Full Stack",
@@ -28,7 +28,7 @@ const collaborators = [
     linkedinName: "yluiz",
     instagramName: "luiz_.v",
   },
-
+  
   {
     name: "Caio Barroncas",
     occupation: "AppSec",
@@ -36,6 +36,15 @@ const collaborators = [
     avatarAlternative: "",
     linkedinName: "caio-barroncas-594b7815b",
     instagramName: "cbarroncas",
+  },
+  
+  {
+    name: "Luís Eduardo",
+    occupation: "Front-end",
+    githubName: "eduardobnhr",
+    avatarAlternative: "./assets/img/luiseduardo.jpg",
+    linkedinName: "luís-eduardo-martins-071632236",
+    instagramName: "leduaardo_",
   },
 
   {
@@ -46,15 +55,7 @@ const collaborators = [
     linkedinName: "yluizlucas-sessi",
     instagramName: "lucas_sessi",
   },
-
-  {
-    name: "Luís Eduardo",
-    occupation: "UX/UI",
-    githubName: "eduardobnhr",
-    avatarAlternative: "./assets/img/luiseduardo.jpg",
-    linkedinName: "luís-eduardo-martins-071632236",
-    instagramName: "leduaardo_",
-  },
+  
 
   {
     name: "Cristian Cordovil",
