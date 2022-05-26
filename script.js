@@ -1,7 +1,15 @@
 const cardList = document.getElementById('container-cards')
 
 const collaborators = [
-
+  {
+    name: "João Wezen",
+    occupation: "Gerente de projeto",
+    githubName: "victorWezen",
+    avatarAlternative: "",
+    linkedinName: "joão-wezen-608a85225",
+    instagramName: "victor_wezen",
+  },
+  
   {
     name: "James Saboia",
     occupation: "Desenvolvedor Android",
@@ -84,14 +92,6 @@ const collaborators = [
     instagramName: "lucs.grana",
   },
 
-  {
-    name: "João Wezen",
-    occupation: "QA",
-    githubName: "victorWezen",
-    avatarAlternative: "",
-    linkedinName: "joão-wezen-608a85225",
-    instagramName: "victor_wezen",
-  },
 
   {
     name: "Nicolas Baracho",
@@ -104,7 +104,7 @@ const collaborators = [
 
   {
     name: "Yann Matheus",
-    occupation: "Social Media",
+    occupation: "QA",
     githubName: "Yannmask",
     avatarAlternative: "",
     linkedinName: "yann-matheus-77aaa51bb",
