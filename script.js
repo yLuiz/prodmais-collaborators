@@ -57,7 +57,7 @@ const collaborators = [
 
   {
     name: "Lucas Sessi",
-    occupation: "UX/UI",
+    occupation: "Front-end",
     githubName: "Lucas-Sessi",
     avatarAlternative: "",
     linkedinName: "yluizlucas-sessi",
